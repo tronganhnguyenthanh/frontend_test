@@ -1,0 +1,92 @@
+html{
+ overflow-x:hidden;
+ overflow-y:scroll;
+}
+
+.parents{
+  width:100%;
+  height:auto;
+  background-color:lightgray;
+  padding:2px;
+}
+
+.wrapper{
+  width:100%;
+  height:auto;
+  background-color:#dddd;
+}
+
+.text-logo{
+  font-size:18px;
+  font-family:"Roboto", sans-serif;
+  font-weight:800;
+}
+
+.ml-100{
+  margin-left:30%;
+}
+
+.media{
+  width:65%;
+}
+
+.btn-action{
+  position:absolute;
+  left:305px;
+  top:10%;
+  white-space:nowrap;
+  width:50%;
+  height:43px;
+  border-radius:30px;
+  background-color:#09073E;
+  border:none;
+  color:#fff;
+}
+
+.nav-link{
+  font-size:16px;
+  color:#9a9a9a;
+}
+
+.slogan-text{
+  font-size:64px;
+  font-family:"Roboto", sans-serif;
+  margin-left:13%;
+}
+
+.slogan-content{
+  margin-left:14%;
+  color:#9a9a9a;
+  font-weight:400;
+}
+
+.btn-get-started{
+  width:25%;
+  height:43px;
+  margin-left:14%;
+  border-radius:30px;
+  background-color:#09073E;
+  border:none;
+  color:#fff;
+  cursor:pointer;
+}
+
+.btn-learn-more{
+  width:25%;
+  height:43px;
+  border-radius:30px;
+  border:1px solid lightgray;
+  background-color:#fff;
+  margin:12px;
+  cursor:pointer;
+}
+
+.nav-link:hover{
+  background-color:#dddd;
+  cursor:pointer
+}
+
+.children{
+  width:100%;
+  background-color:#fff;
+}
